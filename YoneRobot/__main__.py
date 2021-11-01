@@ -84,13 +84,13 @@ buttons = [
             text="🕵️‍♂️ ONWER 🕵️‍♂️", url="t.me/OGGY123kph"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
+        InlineKeyboardButton(text="ABOUT 😎", callback_data="yone_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="GROUP ⚙️", url="https://t.me/moviehubgroupp"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="HELP 🥺", callback_data="help_back"),
     ],
 ]
 
