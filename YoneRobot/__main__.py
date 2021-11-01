@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-´HELLO [🤗](https://telegra.ph/file/879245b592ad2a55f8a83.jpg), IAM TOKYO A HIGHY ADVANCED BOT WITH LOTS OF AMAZING TOOLS..! YOU CAN'T USE ME TO YOUR GROUP´.
+`HELLO [🤗](https://telegra.ph/file/879245b592ad2a55f8a83.jpg), IAM TOKYO A HIGHY ADVANCED BOT WITH LOTS OF AMAZING TOOLS..! YOU CAN'T USE ME TO YOUR GROUP`.
 `I'M A PRIVET BOT..😎!`   
 """
 
@@ -357,7 +357,7 @@ def yone_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_yone's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/noob-kittu/YoneRobot).
+                 \nHere is the [💾Repository](https://t.me/joinchat/aYbIjDgZqY9lYjQ9).
                  \n\nIf you have any question about yone, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -385,7 +385,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *yone*
-                 \nHere is the [Source Code](https://github.com/Noob-kittu/YoneRobot) .""",
+                 \nHere is the [Source Code](https://t.me/joinchat/aYbIjDgZqY9lYjQ9) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
